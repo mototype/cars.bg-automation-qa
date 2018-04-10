@@ -1,0 +1,11 @@
+default:
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+    extensions:
+        Behat\MinkExtension:
+            sessions:
+                default:
+                    selenium2: ~
+            browser_name: chrome
